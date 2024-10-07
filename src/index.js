@@ -8,5 +8,6 @@ btn.addEventListener("click", (event)=>{
   TSK=document.getElementById("tasks");
   TSK.appendChild(LI); 
   event.preventDefault();
+  console.log(TSK)
 })
 
