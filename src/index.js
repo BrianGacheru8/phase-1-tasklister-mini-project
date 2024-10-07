@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  btn=document.getElementById("btn")
+  btn=document.getElementById("new-task-description")
 })
 btn.addEventListener("click", (event)=>{
    VL=document.getElementById("new-task-description").value
