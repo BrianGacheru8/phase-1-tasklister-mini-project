@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   btn=document.getElementById("btn")
-  btn.addEventListener("click", (event)=>{
+})
+btn.addEventListener("click", (event)=>{
    VL=document.getElementById("new-task-description").value
    LI=document.createElement("li");
    LI.innerText=`${VL}`
@@ -8,5 +9,4 @@ document.addEventListener("DOMContentLoaded", () => {
    TSK.appendChild(LI)
    event.preventDefault() 
   })
-})
 
